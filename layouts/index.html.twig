@@ -198,14 +198,14 @@
           <h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1">{{ site.baseline }}</h1>
           <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">{{ site.description }}</p>
           <div class="flex w-full justify-center md:justify-start fade-in">
-            <a href="https://cecil.app/hosting/netlify/deploy"><img src="https://www.netlify.com/img/deploy/button.svg" class="h-12 pr-4 bounce-top-icons"></a>
-            <a href="https://cecil.app/cms/forestry/import"><img src="https://assets.forestry.io/import-to-forestryK.svg" class="h-12 bounce-top-icons"></a>
+            <a href="{{ site.hosting.netlify }}"><img src="https://www.netlify.com/img/deploy/button.svg" class="h-12 pr-4 bounce-top-icons"></a>
+            <a href="{{ site.cms.forestry }}"><img src="https://assets.forestry.io/import-to-forestryK.svg" class="h-12 bounce-top-icons"></a>
           </div>
           <p class=" text-center md:text-left fade-in">Source code on <a  class="font-bold" href="{{ site.source }}">GitHub</a></p>
         </div>
         <!-- Right Col -->
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-          <a href="{{ site.demo }}"><img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="https://raw.githubusercontent.com/Cecilapp/the-butler/master/static/images/cecil-preview.png"></a>
+          <a href="{{ site.demo }}"><img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="{{ site.screenshot }}" alt="Screenshot" title="Go to the demo"></a>
         </div>
         <!-- Footer -->
         <div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
