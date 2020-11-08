@@ -2,5 +2,10 @@ title: The Butler
 baseline: Create your blog in 1 minute!
 description: The Butler is a ready to use static blog, powered by Cecil.
 baseurl: https://the-butler.cecil.app/
-demo: https://the-butler-demo.cecil.app
+hosting:
+  netlify: https://cecil.app/hosting/netlify/deploy
+cms:
+  forestry: https://cecil.app/cms/forestry/import
 source: https://github.com/Cecilapp/the-butler
+screenshot: https://raw.githubusercontent.com/Cecilapp/the-butler/master/static/images/cecil-preview.png
+demo: https://the-butler-demo.cecil.app
