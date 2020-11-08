@@ -10,6 +10,6 @@ buttons:
   - name: Forestry
     url: https://cecil.app/cms/forestry/import
     image: https://assets.forestry.io/import-to-forestryK.svg
-source: https://github.com/Cecilapp/the-butler
+source: https://github.com/Cecilapp/the-butler#readme
 screenshot: /cecil-preview.png
 demo: https://the-butler-demo.cecil.app
