@@ -36,7 +36,7 @@
         </div>
         {#- Right Col ~#}
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-          <a href="{{ site.demo }}"><img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="{{ site.screenshot }}" alt="Screenshot" title="Go to the demo"></a>
+          <a href="{{ site.demo }}"><img src="{{ asset(site.screenshot) }}" width="{{ asset(site.screenshot).width }}" height="{{ asset(site.screenshot).height }}" alt="Screenshot" title="Go to the demo" class="w-5/6 mx-auto lg:mr-0 slide-in-bottom"></a>
         </div>
         {#- Footer ~#}
         <div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
