@@ -2,7 +2,7 @@ title: The Butler
 baseline: Create your blog in 1 minute!
 description: The Butler is a ready to use starter blog, powered by Cecil, your content driven static site generator.
 baseurl: https://the-butler.cecil.app/
-image: /cecil-preview.png
+image: cecil-preview.png
 theme:
   - applanding
 applanding:
@@ -17,5 +17,5 @@ applanding:
       url: https://cecil.app/cms/forestry/import
       image: https://assets.forestry.io/import-to-forestryK.svg
   source: https://github.com/Cecilapp/the-butler#readme
-  screenshot: /cecil-preview.png
+  screenshot: cecil-preview.png
   demo: https://the-butler-demo.cecil.app
