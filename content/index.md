@@ -1,4 +1,4 @@
 ---
 output: html
 ---
-The Butler is a ready to use starter blog, powered by [Cecil](https://cecil.app), your content driven [static site generator](https://jamstack.org/glossary/ssg/).
+The Butler is a ready to use **starter blog** with a user **friendly CMS**, powered by the [Cecil static site generator](https://cecil.app).
