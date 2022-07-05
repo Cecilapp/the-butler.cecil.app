@@ -1,6 +1,6 @@
 /* Tailwind CSS */
 
-/* ! tailwindcss v3.0.17 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -537,8 +537,8 @@ a:hover {
   display: none;
 }
 
-.h-auto {
-  height: auto;
+.h-12 {
+  height: 3rem;
 }
 
 .h-screen {
@@ -910,10 +910,6 @@ a:hover {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-12 {
-    height: 3rem;
   }
 
   .md\:h-auto {
