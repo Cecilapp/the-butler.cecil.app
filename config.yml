@@ -5,6 +5,7 @@ baseurl: https://the-butler.cecil.app/
 image: cecil-preview.png
 theme:
   - applanding
+  - netlify
 applanding:
   buttons:
     - name: Netlify
@@ -16,6 +17,13 @@ applanding:
     - name: Forestry
       url: https://cecil.app/cms/forestry/import
       image: https://assets.forestry.io/import-to-forestryK.svg
-  source: https://github.com/Cecilapp/the-butler#readme
+  source: https://github.com/Cecilapp/the-butler
+  documentation: https://github.com/Cecilapp/the-butler#readme
   screenshot: cecil-preview.png
   demo: https://the-butler-demo.cecil.app
+netlify:
+  redirects:
+    - from: https://the-butler.netlify.app/*
+      to: https://the-butler-demo.cecil.app/:splat
+      status: 301
+      force: true
