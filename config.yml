@@ -14,9 +14,9 @@ applanding:
     - name: Vercel
       url: https://cecil.app/hosting/vercel/deploy
       image: https://vercel.com/button/default.svg
-    - name: Forestry
-      url: https://cecil.app/cms/forestry/import
-      image: https://assets.forestry.io/import-to-forestryK.svg
+    #- name: Forestry
+    #  url: https://cecil.app/cms/forestry/import
+    #  image: https://assets.forestry.io/import-to-forestryK.svg
   source: https://github.com/Cecilapp/the-butler
   documentation: https://github.com/Cecilapp/the-butler#readme
   screenshot: cecil-preview.png
